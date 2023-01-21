@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mini Grid Example</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background-color: #111;
+        /* height: 1000px; */
+        /* display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh; */
+      }
+      .cards {
+        width: 600px;
+        /* max-width: 800px; */
+        margin: 1rem auto;
+        /* border: 1px solid red; */
+      }
+
+      .cards .card {
+        width: 200px;
+        height: 100px;
+        /* width: 96%; */
+        /* height: 100px !important; */
+        background-color: rgb(17, 34, 34, 1);
+        color: #ddd;
+        font-size: 2rem;
+        /* padding: 1rem; */
+        border-radius: 4px;
+        border: 2px solid transparent;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);
+        /*text*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 5vh;
+        color: rgba(68, 68, 68, 0.4);
+        user-select: none;
+        font-family: "Alegreya", sans-serif;
+      }
+      .cards .card-1 {
+        height: 200px;
+      }
+      .cards .card-2 {
+        height: 300px;
+      }
+      .cards .card-3 {
+        height: 200px;
+      }
+      .cards .card-4 {
+        height: 300px;
+      }
+      .cards .card-5 {
+        height: 200px;
+      }
+      .cards .card-6 {
+        height: 300px;
+      }
+      .cards .card-7 {
+        height: 200px;
+      }
+      .cards .card-8 {
+        height: 300px;
+      }
+
+      .cards > div:nth-child(even) {
+        height: 200px;
+      }
+      .cards > div:nth-child(odd) {
+        height: 300px;
+      }
+
+      .sib {
+        transition: transform 300ms ease-in-out;
+      }
+
+      .is-active {
+        z-index: 100;
+        border: 2px solid red;
+      }
+
+      .animate {
+        transition: 300ms ease-in-out;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cards-wrap">
+      <div class="cards">
+        <div class="card card-1">1</div>
+        <div class="card card-2">2</div>
+        <div class="card card-3">3</div>
+        <div class="card card-4">4</div>
+        <div class="card card-5">5</div>
+        <div class="card card-6">6</div>
+        <div class="card card-7">7</div>
+        <div class="card card-8">8</div>
+        <div class="card card-1">9</div>
+        <div class="card card-2">10</div>
+        <div class="card card-1">11</div>
+        <div class="card card-2">12</div>
+        <div class="card card-3">13</div>
+        <div class="card card-4">14</div>
+        <div class="card card-5">15</div>
+        <div class="card card-6">16</div>
+        <div class="card card-7">17</div>
+        <div class="card card-8">18</div>
+        <div class="card card-1">19</div>
+        <div class="card card-2">20</div>
+      </div>
+    </div>
+
+    <script src="breek.1.0.js"></script>
+    <!--  -->
+    <!-- <script src="minigrid.js"></script> -->
+    <!-- <script src="script.js"></script> -->
+    <!--  -->
+    <script src="script copy.js"></script>
+  </body>
+</html>
