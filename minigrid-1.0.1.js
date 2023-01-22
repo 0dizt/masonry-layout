@@ -150,8 +150,8 @@ let layout = new Minigrid({
   items: ".card",
   gutter: 20,
   column: 4,
-  rtl: true,
-  animateOnResize: true,
+  rtl: false,
+  animateOnResize: false,
   breakPoint: {
     350: 1,
     450: 2,
