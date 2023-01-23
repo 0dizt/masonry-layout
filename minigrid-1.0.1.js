@@ -149,13 +149,14 @@ let layout = new Minigrid({
   container: ".cards",
   items: ".card",
   gutter: 20,
-  column: 4,
+  column: 3,
   rtl: false,
   animateOnResize: false,
   breakPoint: {
     350: 1,
     450: 2,
-    900: 3,
-    1000: 4,
+    645: 3,
+    900: 4,
+    1200: 5,
   },
 });
